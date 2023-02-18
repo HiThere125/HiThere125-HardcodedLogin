@@ -19,17 +19,13 @@ public class Lab {
             if(password.equals("qwerty")){
                 return true;
             }
-            else{
-                return false;
-            }
+            else{return false;}
         }
         else if(username.equals("user")){
             if(password.equals("password")){
                 return true;
             }
-            else{
-                return false;
-            }
+            else{return false;}
         }
         else{
             return false;
